@@ -89,38 +89,38 @@ const Careers = () => {
         downloadLink: "/path/to/postgresql.pdf",
       },
     ],
-    "Leadership & Management": [
-      {
-        id: 13,
-        title: "Software Architect",
-        description: "Design scalable software systems.",
-        downloadLink: "/path/to/software-architect.pdf",
-      },
-      {
-        id: 14,
-        title: "Technical Writer",
-        description: "Document technical solutions and architectures.",
-        downloadLink: "/path/to/technical-writer.pdf",
-      },
-      {
-        id: 15,
-        title: "DevRel Engineer",
-        description: "Build relationships between the company and developers.",
-        downloadLink: "/path/to/devrel-engineer.pdf",
-      },
-      {
-        id: 16,
-        title: "Product Manager",
-        description: "Oversee the development and delivery of products.",
-        downloadLink: "/path/to/product-manager.pdf",
-      },
-      {
-        id: 17,
-        title: "Engineering Manager",
-        description: "Lead and mentor engineering teams.",
-        downloadLink: "/path/to/engineering-manager.pdf",
-      },
-    ],
+    // "Leadership & Management": [
+    //   {
+    //     id: 13,
+    //     title: "Software Architect",
+    //     description: "Design scalable software systems.",
+    //     downloadLink: "/path/to/software-architect.pdf",
+    //   },
+    //   {
+    //     id: 14,
+    //     title: "Technical Writer",
+    //     description: "Document technical solutions and architectures.",
+    //     downloadLink: "/path/to/technical-writer.pdf",
+    //   },
+    //   {
+    //     id: 15,
+    //     title: "DevRel Engineer",
+    //     description: "Build relationships between the company and developers.",
+    //     downloadLink: "/path/to/devrel-engineer.pdf",
+    //   },
+    //   {
+    //     id: 16,
+    //     title: "Product Manager",
+    //     description: "Oversee the development and delivery of products.",
+    //     downloadLink: "/path/to/product-manager.pdf",
+    //   },
+    //   {
+    //     id: 17,
+    //     title: "Engineering Manager",
+    //     description: "Lead and mentor engineering teams.",
+    //     downloadLink: "/path/to/engineering-manager.pdf",
+    //   },
+    // ],
     "AI & Data": [
       {
         id: 18,
@@ -163,12 +163,6 @@ const Careers = () => {
     ],
     "Design & Architecture": [
       {
-        id: 24,
-        title: "UX Design",
-        description: "Focus on user experience and interaction design.",
-        downloadLink: "/path/to/ux-design.pdf",
-      },
-      {
         id: 25,
         title: "Design System",
         description: "Create and maintain consistent design patterns.",
@@ -188,12 +182,6 @@ const Careers = () => {
       },
     ],
     "Skills & Technologies": [
-      {
-        id: 28,
-        title: "Skill Based Roadmaps",
-        description: "Create personalized learning paths.",
-        downloadLink: "/path/to/skill-based-roadmaps.pdf",
-      },
       {
         id: 29,
         title: "GraphQL",
@@ -316,18 +304,6 @@ const Careers = () => {
         downloadLink: "/path/to/aws.pdf",
       },
       {
-        id: 49,
-        title: "Linux",
-        description: "Learn Linux for system administration.",
-        downloadLink: "/path/to/linux.pdf",
-      },
-      {
-        id: 50,
-        title: "Terraform",
-        description: "Automate infrastructure provisioning with Terraform.",
-        downloadLink: "/path/to/terraform.pdf",
-      },
-      {
         id: 51,
         title: "React Native",
         description: "Develop mobile apps with React Native.",
@@ -352,34 +328,27 @@ const Careers = () => {
         downloadLink: "/path/to/redis.pdf",
       },
     ],
-    "Computer Science": [
-      {
-        id: 55,
-        title: "Computer Science",
-        description: "Learn the foundations of computer science.",
-        downloadLink: "/path/to/computer-science.pdf",
-      },
-      {
-        id: 56,
-        title: "Data Structures",
-        description: "Master essential data structures for programming.",
-        downloadLink: "/path/to/data-structures.pdf",
-      },
-      {
-        id: 57,
-        title: "System Design",
-        description: "Understand how to design scalable and efficient systems.",
-        downloadLink: "/path/to/system-design.pdf",
-      },
-    ],
+    // "Computer Science": [
+    //   {
+    //     id: 55,
+    //     title: "Computer Science",
+    //     description: "Learn the foundations of computer science.",
+    //     downloadLink: "/path/to/computer-science.pdf",
+    //   },
+    //   {
+    //     id: 56,
+    //     title: "Data Structures",
+    //     description: "Master essential data structures for programming.",
+    //     downloadLink: "/path/to/data-structures.pdf",
+    //   },
+    //   {
+    //     id: 57,
+    //     title: "System Design",
+    //     description: "Understand how to design scalable and efficient systems.",
+    //     downloadLink: "/path/to/system-design.pdf",
+    //   },
+    // ],
     "Other Skills": [
-      {
-        id: 58,
-        title: "Design and Architecture",
-        description:
-          "Learn the principles of design and software architecture.",
-        downloadLink: "/path/to/design-and-architecture.pdf",
-      },
       {
         id: 59,
         title: "Code Review",
