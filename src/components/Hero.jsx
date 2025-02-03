@@ -43,7 +43,7 @@ const Hero = () => {
             project, and challenge is tailored to your skill level and career
             goals.
           </p>
-          <Button href="/pricing" white>
+          <Button href="/" white>
             Get Started
           </Button>
         </div>
@@ -82,13 +82,13 @@ const Hero = () => {
           </div>
           {/* Hero background image */}
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
-            <img
+            {/* <img
               src={heroBackground}
               className="w-full"
               width={1440}
               height={1800}
               alt="hero image"
-            />
+            /> */}
           </div>
           <BackgroundCircles />
         </div>

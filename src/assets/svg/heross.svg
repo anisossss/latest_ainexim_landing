@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 4709.74 1892.91">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+        stroke-width: 0px;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="1876.48" cy="946.45" fx="1876.48" fy="946.45" r="972.21" gradientTransform="translate(-2075.97) scale(2.36 1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#009eff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <ellipse class="cls-1" cx="2354.87" cy="946.45" rx="2354.87" ry="946.45"/>
+  </g>
+</svg>

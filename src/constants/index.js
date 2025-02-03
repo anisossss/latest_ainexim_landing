@@ -212,7 +212,7 @@ export const pricing = [
     id: "0",
     title: "Basic",
     description: "Experience tailored tasks and basic analytics.",
-    price: "0",
+    price: "Coming Soon",
     features: [
       "User-centric task generation",
       "Access to analytics dashboard",
@@ -223,7 +223,7 @@ export const pricing = [
     id: "1",
     title: "Premium",
     description: "Advanced task generation with blockchain badges.",
-    price: "9.99",
+    price: "Coming Soon",
     features: [
       "Advanced personalized task generation",
       "Full analytics dashboard",
@@ -234,7 +234,7 @@ export const pricing = [
     id: "2",
     title: "Enterprise",
     description: "Comprehensive AI features and dedicated support.",
-    price: "199",
+    price: "Coming Soon",
     features: [
       "Custom AI task generation",
       "Comprehensive organizational insights",

@@ -8,7 +8,7 @@ const PricingList = () => {
       {pricing.map((item) => (
         <div
           key={item.id}
-          className="w-[19rem] max-lg:w-full h-full px-6 bg-n-8 border border-n-6 rounded-[2rem] lg:w-auto even:py-14 odd:py-8 odd:my-4 even:border-3 even:border-blue-500 [&>h3]:first:text-color-2 [&>h3]:even:text-color-1 [&>h3]:last:text-color-4"
+          className="w-[19rem] max-lg:w-full h-full px-6 bg-n-8 border border-n-6 rounded-[2rem] lg:w-auto even:py-14 odd:py-8 odd:my-4 even:border-3 even:border-blue-500 [&>h3]:first:text-color-2 [&>h3]:even:text-color-1 [&>h3]:last:text-color-2"
         >
           <h3 className="h4 mb-4">{item.title}</h3>
           <p className="body-2 min-h-[4rem] mb-3 text-n-1/50">
@@ -17,8 +17,7 @@ const PricingList = () => {
           <div className="flex items-center h-[5.5rem] mb-6 justify-center">
             {item.price && (
               <>
-                <div className="h3">$</div>
-                <div className="text-[5.5rem] leading-none font-bold">
+                <div className="text-[1.5rem] leading-none font-bold">
                   {item.price}
                 </div>
               </>
@@ -27,7 +26,9 @@ const PricingList = () => {
           <Button
             className="w-full mb-6"
             href={
-              item.price < 100 ? "#pricing" : "mailto:kabelo.mbewe@ainexim.com"
+              item.price < 100
+                ? "mailto:kabelo.mbewe@ainexim.com"
+                : "mailto:kabelo.mbewe@ainexim.com"
             }
             white={item.price < 100}
           >
