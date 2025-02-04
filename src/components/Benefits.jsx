@@ -25,7 +25,7 @@ const Benefits = () => {
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h3 className="h5 mb-5">{item.title}</h3>
-                <p className="body-2 mb-6 text-n-5">{item.text}</p>
+                <p className="body-2 mb-6 text-n-2">{item.text}</p>
                 <div className="flex items-center mt-auto">
                   <img
                     src={item.iconUrl}
@@ -33,9 +33,11 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
-                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
-                    Explore more
-                  </p>
+                  {/* <a href={item.link}>
+                    <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
+                      Explore More
+                    </p>
+                  </a> */}
                   <Arrow />
                 </div>
               </div>

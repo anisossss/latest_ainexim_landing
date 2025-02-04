@@ -12,6 +12,13 @@ import JoinWaitlist from "./pages/joinwaitlist/index";
 import Support from "./pages/support/index";
 import Careers from "./pages/careers";
 
+import PersonalizedTask from "./pages/PersonalizedTask/index";
+import DynamicAdaptations from "./pages/DynamicAdaptations/index";
+import SecureBlockchain from "./pages/SecureBlockchain/index";
+import RealTimeFeedback from "./pages/RealTimeFeedback/index";
+import AdaptAndImprove from "./pages/AdaptAndImprove/index";
+import EngagingChallenges from "./pages/EngagingChallenges/index";
+
 const AppRouter = () => {
   return (
     <Router>
@@ -38,6 +45,12 @@ const AppRouter = () => {
 
         <Route path="/join-waitlist" element={<JoinWaitlist />} />
         <Route path="/support" element={<Support />} />
+        <Route path="/personalized-task" element={<PersonalizedTask />} />
+        <Route path="/dynamic-adaptations" element={<DynamicAdaptations />} />
+        <Route path="/secure-blockchain" element={<SecureBlockchain />} />
+        <Route path="/real-time-feedback" element={<RealTimeFeedback />} />
+        <Route path="/adapt-and-improve" element={<AdaptAndImprove />} />
+        <Route path="/engaging-challenges" element={<EngagingChallenges />} />
       </Routes>
     </Router>
   );

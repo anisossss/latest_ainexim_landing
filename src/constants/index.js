@@ -61,11 +61,6 @@ export const navigation = [
     url: "#pricing",
   },
   {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
-  {
     id: "4",
     title: "New account",
     url: "#signup",
@@ -251,6 +246,7 @@ export const benefits = [
     backgroundUrl: "./assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    link: "/personalized-task",
   },
   {
     id: "1",
@@ -260,6 +256,7 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage3,
     light: true,
+    link: "/personalized-task",
   },
   {
     id: "2",
@@ -268,6 +265,7 @@ export const benefits = [
     backgroundUrl: "./assets/benefits/card-1.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage4,
+    link: "/personalized-task",
   },
   {
     id: "3",
@@ -277,6 +275,7 @@ export const benefits = [
     iconUrl: benefitIcon4,
     imageUrl: benefitImage5,
     light: true,
+    link: "/personalized-task",
   },
   {
     id: "4",
@@ -285,6 +284,7 @@ export const benefits = [
     backgroundUrl: "./assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage6,
+    link: "/personalized-task",
   },
   {
     id: "5",
@@ -294,6 +294,7 @@ export const benefits = [
     iconUrl: benefitIcon2,
     imageUrl: benefitImage7,
     light: true,
+    link: "/personalized-task",
   },
 ];
 

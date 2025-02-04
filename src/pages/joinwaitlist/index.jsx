@@ -13,11 +13,9 @@ const JoinWaitlist = () => {
   const handleFullNameChange = (e) => {
     setFullName(e.target.value);
   };
-
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
   };
-
   const handleCareerChange = (e) => {
     setCareer(e.target.value);
   };
