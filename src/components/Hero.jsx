@@ -43,7 +43,7 @@ const Hero = () => {
             project, and challenge is tailored to your skill level and career
             goals.
           </p>
-          <Button href="/" white>
+          <Button href="/support" white>
             Get Started
           </Button>
         </div>
